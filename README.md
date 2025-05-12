@@ -1,4 +1,3 @@
-
 # Sabri Insights: Company Byline Module
 
 This project showcases a professional Python module for a fictional data analytics consulting company — **Sabri Insights**.  
@@ -6,44 +5,55 @@ It includes basic Python syntax, statistics, modular functions, and a clean Git-
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
-```
-my-python-project/
-├── main.py              # Entry point to run the module
-├── utils_sabri.py       # Core module with company data and functions
-├── requirements.txt     # List of project dependencies
-├── .gitignore           # Files and folders to exclude from version control
-└── README.md            # This file
-```
+datafun-01-utils/
+├── main.py # Entry point to run the module
+├── utils_sabri.py # Core module with company data and functions
+├── requirements.txt # List of project dependencies
+├── .gitignore # Files and folders to exclude from version control
+└── README.md # This file
+
+
+``
 
 ---
 
-## 🔧 How to Run
+---
 
-1. Clone the repository  
-2. Open the folder in VS Code  
-3. Create and activate your virtual environment  
-4. Install dependencies (if any)  
-5. Run:
+#Create a virtual environment
 
-```bash
+python -m venv venv
+
+
+#Activate the virtual environment
+
+On Windows:
+
+.\venv\Scripts\activate
+
+#Install dependencies
+
+
+pip install -r requirements.txt
+
+Run the script
+
 py main.py
-```
 
 ---
+Features
+Returns a clean company byline using get_byline()
 
-## 🧠 Features
+Calculates and prints:
 
-- Returns a clean company byline using `get_byline()`
-- Calculates and prints:
-  - Number of years in operation
-  - Skills offered
-  - Min, Max, Mean, Std Dev of satisfaction scores
+Number of years in operation
 
----
+Skills offered
 
-## 📈 Sample Output
+Min, Max, Mean, and Std Dev of satisfaction scores
+
+##  Sample Output
 
 ```
 Sabri Insights: Turning Data into Value
@@ -57,7 +67,8 @@ Standard Deviation: 0.16
 
 ---
 
-## 👤 Author
+##  Author
 
 **Sabri Hamdaoui**  
 Master's Student | Data Enthusiast  
+GitHub: sabrouch36
